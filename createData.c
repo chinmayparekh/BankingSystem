@@ -73,7 +73,7 @@ int populate_user()
     listOfUser[2].account_id = 2;
     strcpy(listOfUser[2].password, "user3");
     listOfUser[2].user_type = single;
-    listOfUser[1].flag = 1;
+    listOfUser[2].flag = 1;
 
     for (int i = 0; i < NUMBER_USERS; i++)
     {
